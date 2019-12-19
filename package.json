@@ -1,0 +1,26 @@
+{
+  "name": "data-structure-sorter-project",
+  "version": "1.0.0",
+  "description": "Project to be able to take a variety of data structures and sort them from smallest to largest",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parnhammm/data-structure-sorter-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parnhammm/data-structure-sorter-project/issues"
+  },
+  "homepage": "https://github.com/parnhammm/data-structure-sorter-project#readme",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
