@@ -1,4 +1,4 @@
-export interface Sortable {
+interface Sortable {
   /**
    * The length of the data structure
    */
