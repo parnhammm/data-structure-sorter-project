@@ -1,5 +1,3 @@
-import { NumbersCollection } from "./NumbersCollection";
-
 export interface Sortable {
   length: number;
 
@@ -9,7 +7,7 @@ export interface Sortable {
 }
 
 export class Sorter {
-  constructor(public collection: NumbersCollection) {}
+  constructor(public collection: Sortable) {}
 
   /**
    * Attempts to sort the collection using the bubble sort method
