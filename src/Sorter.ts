@@ -1,8 +1,23 @@
 export interface Sortable {
+  /**
+   * The length of the data structure
+   */
   length: number;
 
+  /**
+   * Performs the swap of the values at leftIndex and rightIndex
+   *
+   * @param leftIndex
+   * @param rightIndex
+   */
   swap(leftIndex: number, rightIndex: number): void;
 
+  /**
+   * Returns the evaluation of leftIndex against rightIndex
+   *
+   * @param leftIndex
+   * @param rightIndex
+   */
   compare(leftIndex: number, rightIndex: number): boolean;
 }
 
